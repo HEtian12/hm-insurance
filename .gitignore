@@ -1,0 +1,45 @@
+# ---- secrets ----
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+.ssh/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---- node ----
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# ---- models / caches / local data ----
+models/
+hf-cache/
+.cache/
+.uv-cache/
+data/
+kechengziliao/
+docs/
+tmp/
+tmp*/
+*.log
+
+# ---- IDE / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- office artifacts ----
+*.docx
+*.pdf
